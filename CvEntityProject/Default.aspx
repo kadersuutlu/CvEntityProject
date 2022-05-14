@@ -37,8 +37,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="sidenav text-center">
         <div class="side_top">
             <img src="/web/images/about.jpg" alt="news image" class="img-fluid navimg">
-            <h1 class="top_hd mt-2"><a href="index.html">Conjoint</a></h1>
-            <p class="top_hdp mt-2">Fermentum lobortis non tristique ante proin sociis</p>
+            <h1 class="top_hd mt-2"><a href="index.html">KADER SUTLU</a></h1>
+            <p class="top_hdp mt-2">BİLGİSAYAR MÜHEDİSİ</p>
         </div>
         <!-- header -->
         <header>
@@ -140,7 +140,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     </div>
                     <asp:TextBox ID="TextBox3" runat="server" placeholder="Konu"></asp:TextBox>
                     <asp:TextBox ID="TextBox4" runat="server" TextMode="MultiLine" placeholder="Mesajınız"></asp:TextBox>
-                    <asp:Button ID="Button1" runat="server" CssClass="btn btn-info" Text="Gönder" />
+                    <asp:Button ID="Button1" runat="server" CssClass="btn btn-info" Text="Gönder" OnClick="Button1_Click" />
                     <asp:Button ID="Button2" runat="server" CssClass="btn btn-warning" Text="Vazgeç" />
                     <div class="clearfix"></div>
                 </form>
