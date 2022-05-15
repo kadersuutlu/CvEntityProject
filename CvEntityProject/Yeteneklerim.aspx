@@ -23,6 +23,6 @@
         </asp:Repeater>
 
     </table>
-    <a href="Yeni Yetenek.aspx" class="btn btn-primary" style="margin-left:20px;">YENİ YETENEK EKLE</a>
+    <a href="YeniYetenek.aspx" class="btn btn-primary" style="margin-left:20px;">YENİ YETENEK EKLE</a>
 
 </asp:Content>

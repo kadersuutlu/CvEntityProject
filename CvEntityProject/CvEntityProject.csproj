@@ -87,6 +87,7 @@
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
     <Content Include="Web.config" />
+    <Content Include="YeniYetenek.aspx" />
     <Content Include="Yeteneklerim.aspx" />
     <Content Include="Deneyimler.aspx" />
     <Content Include="web\css\bootstrap.css" />
@@ -146,6 +147,13 @@
     </Compile>
     <Compile Include="TBLYETENEKLER.cs">
       <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="YeniYetenek.aspx.cs">
+      <DependentUpon>YeniYetenek.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YeniYetenek.aspx.designer.cs">
+      <DependentUpon>YeniYetenek.aspx</DependentUpon>
     </Compile>
     <Compile Include="Yeteneklerim.aspx.cs">
       <DependentUpon>Yeteneklerim.aspx</DependentUpon>
