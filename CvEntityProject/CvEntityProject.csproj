@@ -88,6 +88,7 @@
     </Content>
     <Content Include="Web.config" />
     <Content Include="YeniYetenek.aspx" />
+    <Content Include="YetenekGuncelle.aspx" />
     <Content Include="Yeteneklerim.aspx" />
     <Content Include="Deneyimler.aspx" />
     <Content Include="web\css\bootstrap.css" />
@@ -101,6 +102,7 @@
     <Content Include="web\images\g3.jpg" />
     <Content Include="web\index.html" />
     <Content Include="web\w3layouts-License.txt" />
+    <Content Include="YetenekSil.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Default.aspx.cs">
@@ -155,6 +157,13 @@
     <Compile Include="YeniYetenek.aspx.designer.cs">
       <DependentUpon>YeniYetenek.aspx</DependentUpon>
     </Compile>
+    <Compile Include="YetenekGuncelle.aspx.cs">
+      <DependentUpon>YetenekGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YetenekGuncelle.aspx.designer.cs">
+      <DependentUpon>YetenekGuncelle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Yeteneklerim.aspx.cs">
       <DependentUpon>Yeteneklerim.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -168,6 +177,13 @@
     </Compile>
     <Compile Include="Deneyimler.aspx.designer.cs">
       <DependentUpon>Deneyimler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YetenekSil.aspx.cs">
+      <DependentUpon>YetenekSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YetenekSil.aspx.designer.cs">
+      <DependentUpon>YetenekSil.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
