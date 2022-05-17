@@ -5,8 +5,8 @@
 
     <h4>YETENEK GÜNCELLEME SAYFASI</h4>
     <br />
-    <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control"></asp:TextBox>
+    <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control" ></asp:TextBox>
     <br />
-    <asp:Button ID="Button1" runat="server" Text="KAYDET" CssClass="btn btn-group"  />
+    <asp:Button ID="Button1" runat="server" Text="KAYDET" CssClass="btn btn-group" OnClick="Button1_Click"  />
 
 </asp:Content>

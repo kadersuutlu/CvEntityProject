@@ -14,9 +14,22 @@ namespace CvEntityProject
         protected void Page_Load(object sender, EventArgs e)
         {
             int id=int.Parse(Request.QueryString["ID"]);
-            var yetenek = db.TBLYETENEKLER.Find(id);
-            TextBox1.Text = yetenek.YETENEK;
+            if (Page.IsPostBack == false)
+            {
+                var yetenek = db.TBLYETENEKLER.Find(id);
+                TextBox1.Text = yetenek.YETENEK;
+            }
+            
 
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            int id = int.Parse(Request.QueryString["ID"]);
+            var yetenek = db.TBLYETENEKLER.Find(id);
+            yetenek.YETENEK = TextBox1.Text;
+            db.SaveChanges();
+            Response.Redirect("Yeteneklerim.aspx");
         }
     }
 }
