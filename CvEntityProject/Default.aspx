@@ -36,7 +36,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <body>
     <div class="sidenav text-center">
         <div class="side_top">
-            <img src="/web/images/about.jpg" alt="news image" class="img-fluid navimg">
+            <img src="/web/images/resim.jpg" alt="news image" class="img-fluid navimg">
             <h1 class="top_hd mt-2"><a href="index.html">KADER SUTLU</a></h1>
             <p class="top_hdp mt-2">BİLGİSAYAR MÜHEDİSİ</p>
         </div>

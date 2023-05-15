@@ -118,7 +118,7 @@
                 <div class="skill2" style="width:76%"></div>
             </div>
         </div>
-        <p>CV projemizin admin paneli kısmındasınız.</p>
+        <p>CV projemizin admin paneli kısmındasınız. Keyifli kodlamalar :D</p>
     </div>
     <div class="clearfix"></div>
 </div>
